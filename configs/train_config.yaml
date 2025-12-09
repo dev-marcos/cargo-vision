@@ -1,0 +1,10 @@
+base_model: yolov8m.pt
+# base_model: models/yolov8m.pt
+data_yaml: data/yolo_dataset/data.yaml
+epochs: 100
+batch_size: 16
+img_size: 640
+workers: 0
+device: 0
+patience: 20
+amp: true

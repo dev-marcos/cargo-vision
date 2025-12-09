@@ -1,0 +1,6 @@
+raw_dataset_dir: data/raw
+yolo_dataset_dir: data/yolo_dataset
+train_split: 0.8
+class_names:
+  - Cargo
+  - Tractor
